@@ -1,0 +1,70 @@
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background: gray;
+  padding:20;
+  font-style: helvetica;
+
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.mainlist {
+  list-style-type: none;
+  margin: auto;
+  padding:20;
+  font-family: helvetica;
+  font-size: 30px;
+  page-break-after: always;
+  page-break-before: always;
+}
+li {
+  float: left;
+  page-break-after: always;
+  page-break-before: always;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: darkgreen;
+  color:gray;
+}
+h2{
+  text-align: center;
+  border: 3px solid green;
+}
+nav{
+  background:green;
+
+}
+
+ul.misclist{
+  list-style-type: none;
+  background:grey;
+  width:200px
+}
+a.misclist {
+
+  display: block;
+  padding: 16px;
+  background-color: grey;
+  color:black;
+  font-size: 36px
+}
+
+li.misclist{
+  font-style: helvetica;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
